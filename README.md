@@ -71,3 +71,12 @@ Easily create a meme and share or download it
 
 **Expectations**
 - Button icons is explanatory enoughf for users to understand what thier function is.
+
+
+
+## Wireframes ##
+---
+I used [Figma](https://www.figma.com/). To produced **lo-fi** wireframes.
+ 
+
+![Wireframe](/wireframes/wireframes.png)
