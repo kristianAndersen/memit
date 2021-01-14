@@ -1,0 +1,52 @@
+/*========reset================*/
+*,
+*:after,
+*:before {
+	/* webkit/moz unnecessary in new  browsers */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+  font-size: 0.8em;
+}
+.center-txt{
+    text-align: center;
+}
+.full-width { 
+    margin: 0 auto;
+      background-color:blueviolet;
+      text-align: center;
+    }
+
+
+.canvas-wrapper{
+    border: solid 1px #E8E8E8;
+    position: relative;
+
+
+  }
+  
+  canvas {
+    border: solid 1px #D3D3D3;
+    padding-right:0;padding-left:0;padding-top:0;
+    margin-right:-15px;margin-left:-12px;
+    
+  }
+.croparrea{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  border: dashed 2px rgb(226, 223, 223);
+  background-color: #F8F8F8;
+}
+
