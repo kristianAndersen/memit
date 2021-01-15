@@ -32,7 +32,7 @@ if( window.devicePixelRatio !== 1 ){
 
     function canvasResize() {
 
-		let outerCanvasContainer = document.querySelector(".canvas-wrapper");
+		let outerCanvasContainer = document.querySelector(".wrap");
 
 		const ratio = canvas.getWidth() / canvas.getHeight();
 		const containerWidth = outerCanvasContainer.clientWidth;
