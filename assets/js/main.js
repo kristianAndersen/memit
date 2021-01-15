@@ -58,13 +58,17 @@ if( window.devicePixelRatio !== 1 ){
 /*Thanks to Cyrielle her version of drag vas better than mine 
 https://codepen.io/Milky-box/pen/GRoexRz
 */    
- dragbar(document.querySelector('.dragbar'))
+
+dragbar(document.querySelector('.dragbar'))
+dragbar(document.querySelector('.dragbarb'))
 
     function dragbar(elmnt) {
+        
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
     elmnt.onmousedown = dragMouseDown;
 
   function dragMouseDown(e) {
+      
     e = e || window.event;
     e.preventDefault();
     // get the mouse cursor position at startup:

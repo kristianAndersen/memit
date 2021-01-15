@@ -95,6 +95,15 @@ width: 100%;
   cursor: grabbing;
 }
 
+.dragbarb{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+.dragbarb:active {
+  cursor: grabbing;
+}
+
 
 @media (min-width: 576px) { 
 
@@ -120,6 +129,14 @@ width: 100%;
     width: 100%;
     height: 1.7rem;
     background: var(--dragbar);
+    z-index: 100;
+}
+.dragbarb{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: 1.7rem;
+    background:transparent;
     z-index: 100;
 }
  }
