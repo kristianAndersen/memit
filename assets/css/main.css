@@ -34,8 +34,14 @@ body{
     transform: translate(-50%, 0%);
     overflow: hidden;
     background-color: rgba(51, 51, 51, 0.5);
-    
- border-radius: 1em;
+    /** Thak you Stereokai for this ghist
+    https://gist.github.com/stereokai/36dc0095b9d24ce93b045e2ddc60d7a0
+    */
+   border: double 1px transparent;
+  border-radius: 1em;
+  background-image: linear-gradient(white, white), linear-gradient(0deg, rgba(48,48,48,1) 0%, rgb(121, 121, 121) 50%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
     
 }
 
@@ -47,6 +53,7 @@ body{
     bottom: 0;
     background-color:var( --darkgreytrans);
      z-index: 1;
+     
     
   
 }
@@ -82,6 +89,10 @@ width: 100%;
     height: 0rem;
     background: var(--dragbar);
     display: none;
+    cursor: grab;
+}
+.dragbar:active {
+  cursor: grabbing;
 }
 
 
@@ -109,6 +120,7 @@ width: 100%;
     width: 100%;
     height: 1.7rem;
     background: var(--dragbar);
+    z-index: 100;
 }
  }
 
@@ -127,10 +139,6 @@ width: 100%;
     transform: translate(-50%, 5%);
 }
  }
-
-
-  
-
 
 .toolbar{
    
